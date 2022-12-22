@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  background-color: thistle;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.form-change {
+  flex-direction: column;
+  align-items: center;
+}
+.students {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.students__table {
+  width: 100%;
+  border: none;
+  border-collapse: separate;
+}
+.stud-marks {
+  text-align: center;
+}
+.students__table thead th {
+  border: none;
+  background: rgb(226, 218, 218);
+}
+.students__table tbody td {
+  text-align: left;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  vertical-align: top;
+}
+.form-group__label {
+  border: none;
+  background-color: rgb(226, 218, 218);
+
+  border: 2px solid rgb(248, 230, 249);
+  border-radius: 20px;
+  padding: 0 10px;
+}
+.form-group__select {
+  background-color: transparent;
+  border: none;
+  padding: 5px 10px;
+
+  cursor: pointer;
+}
+
+.form-group__select:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+.form-group__button {
+  background-color: transparent;
+  border: none;
+  border: 2px solid rgb(248, 230, 249);
+  border-radius: 20px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.students__table tr th:first-child,
+.students__table tr td:first-child {
+  border-left: 1px solid rgb(226, 218, 218);
+}
+.students__table tr th:last-child,
+.students__table tr td:last-child {
+  border-right: 1px solid rgb(226, 218, 218);
+}
+.students__table tbody tr:last-child td {
+  border: none;
+  border-bottom: 1px solid rgb(226, 218, 218);
+}
+.students__table tbody tr:nth-child(even) {
+  background: rgb(226, 218, 218);
+}
+.students__table tbody tr:nth-child(odd) {
+  background: rgb(251, 248, 248);
+}
+.students__table thead tr th:first-child {
+  border-radius: 20px 0 0 0;
+}
+.students__table thead tr th:last-child {
+  border-radius: 0 20px 0 0;
+}
+.students__table tbody tr:last-child td:first-child {
+  border-radius: 0 0 0 20px;
+}
+.students__table tbody tr:last-child td:last-child {
+  border-radius: 0 0 20px 0;
+}
+.header-form {
+  width: 100%;
+  max-width: 400px;
+  margin: 30px auto;
+}
